@@ -3,7 +3,9 @@
 mkdir -p output/bootloader/res/
 
 cp android/*.bmp output/bootloader/res/
+cp arch/*.bmp output/bootloader/res/
 cp atmosphere/*.bmp output/bootloader/res/
+cp gentoo/*.bmp output/bootloader/res/
 cp lakka/*.bmp output/bootloader/res/
 cp linux/*.bmp output/bootloader/res/
 cp lockpick/*.bmp output/bootloader/res/
