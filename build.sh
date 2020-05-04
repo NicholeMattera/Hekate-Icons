@@ -8,7 +8,11 @@ cp lakka/*.bmp output/bootloader/res/
 cp linux/*.bmp output/bootloader/res/
 cp lockpick/*.bmp output/bootloader/res/
 cp payload/*.bmp output/bootloader/res/
+mv output/bootloader/res/icon_payload.bmp output/bootloader/res/icon_payload_custom.bmp
+mv output/bootloader/res/icon_payload_hue.bmp output/bootloader/res/icon_payload.bmp
 cp switch/*.bmp output/bootloader/res/
+mv output/bootloader/res/icon_switch.bmp output/bootloader/res/icon_switch_custom.bmp
+mv output/bootloader/res/icon_switch_hue.bmp output/bootloader/res/icon_switch.bmp
 cp ubuntu/*.bmp output/bootloader/res/
 
 cd output
